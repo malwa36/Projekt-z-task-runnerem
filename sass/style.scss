@@ -101,3 +101,46 @@ header {
     background-size: 300%;
     color: #3d3d3d;
 }
+
+/* services */
+
+.info {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.services ul {
+    padding: 0 20px 0px 20px;
+}
+
+.info li {
+    flex: 0 0 33.333%;
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+	text-transform: lowercase;
+}
+
+.element-title {
+    color: #ff9f1a;
+    font-size: 34px;
+	text-transform: uppercase;    
+}
+
+.element-content {
+    padding: 0 30px;
+	color: #cd84f1;
+    font-size: 25px;
+}
+
+.info-element i {
+    color:#DAA520;
+    border: solid 2px #DAA520;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    font-size: 30px;
+}
