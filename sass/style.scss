@@ -50,6 +50,10 @@ a {
     text-decoration: none;
     font-size: 20px;
 	font-weight: 600;
+	background-color: #ffcccc;
+	border: solid 0.7px;
+	border-radius: 20px 20px 32px 32px;
+	padding: 10px;
 }
 
 a:hover {
@@ -85,7 +89,7 @@ header {
     min-width: 160px;
     margin: 30px auto 0 auto;
     padding: 10px;
-    border-radius: 20px 20px 32px 32px;
+    border-radius: 32px 32px 20px 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     text-align: center;
