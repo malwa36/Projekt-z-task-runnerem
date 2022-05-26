@@ -20,10 +20,6 @@ body {
     margin: 0 auto;
 }
 
-section {
-	padding: 50px 0;
-}
-
 /* header */
 
 ul {
@@ -126,13 +122,15 @@ header {
 .element-title {
     color: #ff9f1a;
     font-size: 34px;
-	text-transform: uppercase;    
+	text-transform: uppercase;
+	height: 95.2px;
+	font-size: 28px;    
 }
 
 .element-content {
     padding: 0 30px;
 	color: #cd84f1;
-    font-size: 25px;
+    font-size: 22px;
 }
 
 .info-element i {
