@@ -6,8 +6,7 @@
 
 body {
     margin: 0;
-    font-size: 32px;
-    line-height: 1.7;
+    font-size: 22px;
     font-weight: 300;
     font-family: 'Inconsolata', monospace;
     color: #c56cf0;
@@ -16,11 +15,16 @@ body {
 
 .container {
     max-width: 1140px;
-    padding: 0 10px 0 10px;
+    padding: 0 10px;
     margin: 0 auto;
 }
 
 /* header */
+
+img {
+	border-radius: 20%;
+	border: 2px solid #c56cf0;
+}
 
 ul {
     list-style: none;
@@ -37,7 +41,7 @@ li {
 
 .nav {
     float:right;
-    margin: 70px 10px 0 10px;
+    margin: 50px 10px 0 10px;
 
 }
 
@@ -68,7 +72,10 @@ a:hover {
     padding-bottom:0;
     position: absolute;
     margin: 30px auto;
-	color: #ff9f1a;
+}
+
+.splash-inner h3 {
+	width: 550px;
 }
 
 header {
@@ -142,3 +149,10 @@ header {
     border-radius: 50%;
     font-size: 30px;
 }
+
+/* portfolio */
+
+.portfolio {
+	background: #7efff5;
+}
+
