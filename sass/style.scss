@@ -15,8 +15,8 @@ body {
 
 .container {
     max-width: 1140px;
-    padding: 0 10px;
-    margin: 0 auto;
+    padding: 10px 10px;
+    margin: 15px auto;
 }
 
 /* header */
@@ -119,7 +119,7 @@ header {
     padding: 0 20px 0px 20px;
 }
 
-.info li, .row {
+.info li {
     flex: 0 0 33.333%;
     list-style-type: none;
     margin: 0;
@@ -158,16 +158,32 @@ header {
 	padding: 0 50px;
 }
 
+.portfolio row {
+	padding: 0 20px;
+}
+
 .card img {
 	width: 100%;
-	height: 300px;
+	height: 350px;
 	object-fit: cover;
+	flex: 3;
 }
 
 .card {
-	border: 1px solid;
-	margin: 0 0 30px 0;
-	display: block;
+    margin: 0 0 30px 0;
+    padding: 0 10px;
+    display: block;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+	flex: 0 0 33.333%;
+}
+
+.card-body {
+	background: white;
+	margin: 0;
+	padding: 0;
+	flex: 9;
 }
 
 h5, h6 {
