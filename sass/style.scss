@@ -40,7 +40,7 @@ li {
 }
 
 .nav {
-    float:right;
+    float: right;
     margin: 50px 10px 0 10px;
 
 }
@@ -72,11 +72,9 @@ a:hover {
     padding-bottom:0;
     position: absolute;
     margin: 30px auto;
+	max-width: 100%;
 }
 
-.splash-inner h3 {
-	width: 550px;
-}
 
 header {
 	background-image: url(https://i.postimg.cc/sX1Rpx9y/pexels-elina-fairytale-3822864.jpg);
@@ -224,3 +222,38 @@ footer ul li i {
 	background-color: white;
 	border: none;
  }
+
+/* Media */
+
+@media (max-width: 767px) {
+	.info, .row {
+		flex-direction: column;
+	}
+	
+	.splash-inner {
+		max-width: 100%;
+
+		font-size: medium;
+	}
+	
+	.nav {
+		margin: 5px;
+	}
+	
+	.nav a {
+		font-size: 10px;
+		padding: 5px;
+	}
+	
+	.copyright, .fab {
+		font-size: medium;
+		justify-content: center;
+		padding-top: 10px;
+	}
+	
+	.navi {
+		list-style-type: none;
+		    padding-inline-start: 0;
+	}
+	
+}
