@@ -26,7 +26,7 @@ body {
 	border: 2px solid #c56cf0;
 }
 
-ul {
+.navi ul {
     list-style: none;
     margin: 0 auto;
 	text-transform: uppercase;
@@ -45,7 +45,7 @@ li {
 
 }
 
-a {
+.nav a {
     color: #3d3d3d;
     text-decoration: none;
     font-size: 20px;
@@ -189,3 +189,44 @@ header {
 h5, h6 {
 	margin: 10px;
 }
+
+/* footer */
+
+footer {
+	display: inline-flex;
+	flex-direction: row;
+}
+
+.copyright {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: left;
+    height: 20px;
+	margin: 0 0 0 300px;
+}
+
+footer ul {
+    text-align: center
+	flex: 1;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+footer ul li {
+	display: inline-block;
+	font-size: 0;
+	width: 60px;
+	height: 60px;
+	margin: 0 auto;
+}
+
+footer ul li i {
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    color: #050505;
+	background-color: white;
+	border: none;
+ }
